@@ -1,0 +1,78 @@
+body,
+html {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.main-block {
+  background: url("img/main-block-bg-image.png") top no-repeat;
+  background-position-y: -80px;
+  height: 1000px;
+  min-height: 700px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.main-block img {
+  margin: 20px 20px 20px 25px;
+  position: absolute;
+}
+.main-block .navigation {
+  margin: 0 0 0 320px;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  padding-top: 46.5px;
+  letter-spacing: 1pt;
+}
+.main-block .navigation li {
+  float: left;
+  display: block;
+  margin-right: 50px;
+  cursor: pointer;
+  position: relative;
+}
+.main-block .navigation li svg {
+  margin-left: 15px;
+}
+.main-block .navigation li:hover .nav-hidden {
+  display: block;
+}
+.main-block .navigation li .nav-hidden {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+}
+.main-block .navigation li .nav-hidden li {
+  display: block;
+  padding: 5px;
+}
+.main-block .slogan-and-description {
+  margin-top: 180px;
+  margin-left: 330px;
+  display: block;
+  color: white;
+  max-width: 520px;
+}
+.main-block .slogan-and-description .slogan {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 52pt;
+  line-height: 62pt;
+}
+.main-block .slogan-and-description .description {
+  font-family: 'Lato', sans-serif;
+  font-size: 13pt;
+  line-height: 25pt;
+}
+.main-block .askew {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
