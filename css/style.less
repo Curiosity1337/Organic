@@ -6,19 +6,20 @@ body, html {
     height: 100%;
     background-color: black;
     max-width: 2100px;
+    min-width: 1400px;
 }
 
 .main-block {
     background: url("img/main-block-bg-image.png") top no-repeat;
     background-position-y: -80px;
-    height: 100%;
-    min-height: 700px;
+    height: 100vh;
+    min-height: 800px;
     max-height: 1074px;
     width: 100%;
     background-size: cover;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+
     position: relative;
 
 
@@ -28,13 +29,12 @@ body, html {
         position: absolute;
     }
     .navigation {
-        margin: 0 0 0 320px;
         list-style: none;
         font-family: 'Lato', sans-serif;
         font-weight: bold;
         font-size: 15px;
         color: white;
-        margin-top: 46.5px;
+        margin: 46.5px 0 0 320px;
         letter-spacing: 1pt;
         display: inline-block;
         li {
@@ -93,6 +93,7 @@ body, html {
         max-width: 2100px;
         position: absolute;
         top: calc(~"100% - 80px");
+
     }
 }
 
