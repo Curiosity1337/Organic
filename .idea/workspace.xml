@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2610434f-ec2d-4ca5-8631-5fd158bbcccf" name="Default" comment="доделать адаптивность свг">
+    <list default="true" id="2610434f-ec2d-4ca5-8631-5fd158bbcccf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.less" afterPath="$PROJECT_DIR$/css/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="73" column="58" lean-forward="false" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+            <state relative-caret-position="-504">
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="1547">
               <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="20" />
               <folding />
             </state>
@@ -43,7 +40,7 @@
       <file leaf-file-name="headerAndName.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Creativy/css/headerAndName.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1966">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -57,17 +54,18 @@
               <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
               <folding>
                 <marker date="1516448979091" expanded="true" signature="11:103" ph="{...}" />
-                <marker date="1516448979091" expanded="true" signature="138:406" ph="{...}" />
                 <marker date="1516448979091" expanded="true" signature="308:363" ph="{...}" />
-                <marker date="1516448979091" expanded="true" signature="423:479" ph="{...}" />
-                <marker date="1516448979091" expanded="true" signature="504:711" ph="{...}" />
-                <marker date="1516448979091" expanded="true" signature="739:838" ph="{...}" />
-                <marker date="1516448979091" expanded="true" signature="1001:1090" ph="{...}" />
-                <marker date="1516448979091" expanded="true" signature="1207:1307" ph="{...}" />
-                <marker date="1516448979091" expanded="true" signature="1352:1454" ph="{...}" />
-                <marker date="1516448979091" expanded="true" signature="1504:1582" ph="{...}" />
-                <marker date="1516448979091" expanded="true" signature="1602:1689" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Creativy/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2397">
+              <caret line="141" column="121" lean-forward="true" selection-start-line="140" selection-start-column="45" selection-end-line="141" selection-end-column="121" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,8 +106,8 @@
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -174,7 +172,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="settings.editor.selected.configurable" value="lessc" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Creativy/css/headerAndName.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Creativy/index.html" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,7 +199,8 @@
       <workItem from="1516107061317" duration="4901000" />
       <workItem from="1516180836608" duration="25462000" />
       <workItem from="1516283684498" duration="3651000" />
-      <workItem from="1516443827247" duration="5264000" />
+      <workItem from="1516443827247" duration="5778000" />
+      <workItem from="1516450059386" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="доделать адаптивность свг">
       <created>1516215659549</created>
@@ -210,11 +209,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516215659549</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="доделать адаптивность свг">
+      <created>1516449105608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516449105608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39278000" />
+    <option name="totallyTimeSpent" value="39992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -273,6 +279,49 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="58" lean-forward="false" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Creativy/css/headerAndName.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+          <folding>
+            <marker date="1516448979091" expanded="true" signature="11:103" ph="{...}" />
+            <marker date="1516448979091" expanded="true" signature="308:363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" column="11" lean-forward="false" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
           <folding />
@@ -283,7 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3281">
           <caret line="193" column="16" lean-forward="false" selection-start-line="193" selection-start-column="16" selection-end-line="193" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -293,16 +341,7 @@
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <marker date="1516448979091" expanded="true" signature="11:103" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="138:406" ph="{...}" />
             <marker date="1516448979091" expanded="true" signature="308:363" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="423:479" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="504:711" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="739:838" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1001:1090" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1207:1307" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1352:1454" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1504:1582" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1602:1689" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -335,7 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3281">
           <caret line="193" column="16" lean-forward="false" selection-start-line="193" selection-start-column="16" selection-end-line="193" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -345,16 +383,7 @@
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <marker date="1516448979091" expanded="true" signature="11:103" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="138:406" ph="{...}" />
             <marker date="1516448979091" expanded="true" signature="308:363" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="423:479" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="504:711" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="739:838" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1001:1090" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1207:1307" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1352:1454" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1504:1582" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1602:1689" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -392,25 +421,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/d" />
-    <entry file="file://$PROJECT_DIR$/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Creativy/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="141" column="121" lean-forward="true" selection-start-line="140" selection-start-column="45" selection-end-line="141" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="192" column="27" lean-forward="false" selection-start-line="192" selection-start-column="27" selection-end-line="192" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Creativy/css/headerAndName.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -421,40 +450,31 @@
           <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
           <folding>
             <marker date="1516448979091" expanded="true" signature="11:103" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="138:406" ph="{...}" />
             <marker date="1516448979091" expanded="true" signature="308:363" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="423:479" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="504:711" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="739:838" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1001:1090" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1207:1307" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1352:1454" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1504:1582" ph="{...}" />
-            <marker date="1516448979091" expanded="true" signature="1602:1689" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Creativy/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="121" lean-forward="true" selection-start-line="140" selection-start-column="45" selection-end-line="141" selection-end-column="121" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="73" column="58" lean-forward="false" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Creativy/css/headerAndName.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1966">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="20" />
+        <state relative-caret-position="-504">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding />
         </state>
       </provider>
