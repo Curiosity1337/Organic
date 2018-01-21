@@ -6,23 +6,20 @@ body, html {
     height: 100%;
     background-color: black;
     max-width: 2100px;
-    min-width: 1400px;
+
 }
 
 .main-block {
     background: url("img/main-block-bg-image.png") top no-repeat;
-    background-position-y: -80px;
-    height: 100vh;
+    height: 100%;
     min-height: 800px;
-    max-height: 1074px;
+    max-height: 1072px;
     width: 100%;
     background-size: cover;
     margin: 0;
     padding: 0;
-
     position: relative;
-
-
+    display: inline-block;
 
     img {
         margin: 20px 20px 20px 25px;
@@ -36,7 +33,7 @@ body, html {
         color: white;
         margin: 46.5px 0 0 320px;
         letter-spacing: 1pt;
-        display: inline-block;
+
         li {
             float: left;
             display: block;
@@ -65,14 +62,15 @@ body, html {
                 }
             }
 
-        } //сделать стрелочку вниз из блока с transparent border
+        }
+        //сделать стрелочку вниз из блока с transparent border
 
     }
     .slogan-and-description {
         margin-top: 180px;
         margin-left: 330px;
         display: block;
-        color:white;
+        color: white;
         max-width: 520px;
         .slogan {
             font-family: 'Lato', sans-serif;
@@ -87,20 +85,141 @@ body, html {
 
         }
 
-    }// попробовать просто добавить блоки  снизу, возможно это решит проблему пропадания свг
+    }
     .askew {
         width: 100%;
         max-width: 2100px;
         position: absolute;
-        top: calc(~"100% - 80px");
+        bottom: -100px;
+        z-index: 3;
+    }
+    // попробовать просто добавить блоки  снизу, возможно это решит проблему пропадания свг
 
+
+}
+.information {
+    background-color: white;
+    width: 100vm;
+    z-index: 2;
+    position: relative;
+    padding: 0 0 50px;
+    .slider-box {
+        position: relative;
+        width: 250px;
+        height: 315px;
+        overflow: hidden;
+        padding-top: 50px;
+        margin-left: 320px;
+        display: inline-block;
+
+
+        .slider {
+            position: relative;
+            width: 10000px;
+            height: 210px;
+
+
+            & .quote {
+                float: left;
+                font-family: 'Lato', sans-serif;
+                font-style: italic;
+                font-size: 25px;
+                color: #fe992a;
+                width: 250px;
+                height: 315px;
+            }
+        }
+        .prev, .next {
+            position: absolute;
+            bottom: 0;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 25px;
+            color: white;
+             background-color: #fe992a;
+            text-align: center;
+
+            }
+        .prev {
+            right: 41px;
+
+        }
+        .next {
+            right: 0;
+        }
+     }
+    .info-block {
+        margin-left: 190px;
+
+        width: 590px;
+        display: inline-block;
+        position: relative;
+        top: -125px;
+        .info-caption {
+            color: #fe992a;
+            font-family: 'Lato', sans-serif;
+            font-size: 30px;
+            display: inline-block;
+            font-style: italic;
+        }
+        .info-description {
+            font-family: "Arial", sans-serif;
+            color: #737c85;
+            font-size: 15px;
+            line-height: 30px;
+
+
+        }
     }
 }
 
-.information {
-    background-color: white;
-    width: 100%;
-    margin: 0;
+.footer {
+    background: url("img/footer-bg.png");
+    width: 100vm;
     height: 400px;
-    padding: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 320px;
+    padding-top: 50px;
+    font-size: 12px;
+
+
+    .footer-ul {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+        vertical-align: top;
+        margin: 0 70px 0 0;
+        &:nth-child(2) {
+            margin-left: 100px;
+        }
+
+            li {
+                padding-bottom: 10px;
+            }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        a:active{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+        a:visited {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+    }
+
 }
+
