@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2610434f-ec2d-4ca5-8631-5fd158bbcccf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.less" afterPath="$PROJECT_DIR$/css/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,33 +26,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
+            <state relative-caret-position="234">
               <caret line="180" column="16" lean-forward="false" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
+            <state relative-caret-position="-997">
               <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
               <folding>
                 <marker date="1516558429085" expanded="true" signature="11:103" ph="{...}" />
                 <marker date="1516558429085" expanded="true" signature="138:333" ph="{...}" />
                 <marker date="1516558429085" expanded="true" signature="1609:1626" ph="{...}" />
-                <marker date="1516558429085" expanded="true" signature="3036:3231" ph="{...}" />
-                <marker date="1516558429085" expanded="true" signature="3251:3358" ph="{...}" />
-                <marker date="1516558429085" expanded="true" signature="3391:3416" ph="{...}" />
-                <marker date="1516558429085" expanded="true" signature="3439:3466" ph="{...}" />
-                <marker date="1516558429085" expanded="true" signature="3488:3532" ph="{...}" />
-                <marker date="1516558429085" expanded="true" signature="3561:3605" ph="{...}" />
-                <marker date="1516558429085" expanded="true" signature="3633:3696" ph="{...}" />
-                <marker date="1516558429085" expanded="true" signature="3726:3775" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -199,7 +187,7 @@
       <workItem from="1516283684498" duration="3651000" />
       <workItem from="1516443827247" duration="5778000" />
       <workItem from="1516450059386" duration="7957000" />
-      <workItem from="1516525692593" duration="8690000" />
+      <workItem from="1516525692593" duration="8862000" />
     </task>
     <task id="LOCAL-00001" summary="доделать адаптивность свг">
       <created>1516215659549</created>
@@ -257,11 +245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516454438673</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="make adaptive">
+      <created>1516558520306</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516558520306</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56439000" />
+    <option name="totallyTimeSpent" value="56611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -312,7 +307,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="доделать адаптивность свг" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="make adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="make adaptive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -335,14 +331,6 @@
             <marker date="1516558429085" expanded="true" signature="11:103" ph="{...}" />
             <marker date="1516558429085" expanded="true" signature="138:333" ph="{...}" />
             <marker date="1516558429085" expanded="true" signature="1609:1626" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3036:3231" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3251:3358" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3391:3416" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3439:3466" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3488:3532" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3561:3605" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3633:3696" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3726:3775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -403,14 +391,6 @@
             <marker date="1516558429085" expanded="true" signature="11:103" ph="{...}" />
             <marker date="1516558429085" expanded="true" signature="138:333" ph="{...}" />
             <marker date="1516558429085" expanded="true" signature="1609:1626" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3036:3231" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3251:3358" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3391:3416" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3439:3466" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3488:3532" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3561:3605" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3633:3696" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3726:3775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -439,14 +419,6 @@
             <marker date="1516558429085" expanded="true" signature="11:103" ph="{...}" />
             <marker date="1516558429085" expanded="true" signature="138:333" ph="{...}" />
             <marker date="1516558429085" expanded="true" signature="1609:1626" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3036:3231" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3251:3358" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3391:3416" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3439:3466" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3488:3532" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3561:3605" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3633:3696" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3726:3775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -491,14 +463,6 @@
             <marker date="1516558429085" expanded="true" signature="11:103" ph="{...}" />
             <marker date="1516558429085" expanded="true" signature="138:333" ph="{...}" />
             <marker date="1516558429085" expanded="true" signature="1609:1626" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3036:3231" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3251:3358" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3391:3416" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3439:3466" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3488:3532" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3561:3605" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3633:3696" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3726:3775" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -575,26 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
-          <folding>
-            <marker date="1516558429085" expanded="true" signature="11:103" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="138:333" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="1609:1626" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3036:3231" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3251:3358" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3391:3416" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3439:3466" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3488:3532" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3561:3605" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3633:3696" ph="{...}" />
-            <marker date="1516558429085" expanded="true" signature="3726:3775" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1196">
@@ -605,9 +549,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="234">
           <caret line="180" column="16" lean-forward="false" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-997">
+          <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+          <folding>
+            <marker date="1516558429085" expanded="true" signature="11:103" ph="{...}" />
+            <marker date="1516558429085" expanded="true" signature="138:333" ph="{...}" />
+            <marker date="1516558429085" expanded="true" signature="1609:1626" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
