@@ -6,6 +6,7 @@ html {
   height: 100%;
   background-color: black;
   max-width: 2100px;
+  min-width: 1500px;
 }
 .main-block {
   background: url("img/main-block-bg-image.png") top no-repeat;
