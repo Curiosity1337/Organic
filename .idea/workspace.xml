@@ -187,7 +187,7 @@
       <workItem from="1516283684498" duration="3651000" />
       <workItem from="1516443827247" duration="5778000" />
       <workItem from="1516450059386" duration="7957000" />
-      <workItem from="1516525692593" duration="8862000" />
+      <workItem from="1516525692593" duration="8872000" />
     </task>
     <task id="LOCAL-00001" summary="доделать адаптивность свг">
       <created>1516215659549</created>
@@ -252,11 +252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516558520306</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="make adaptive">
+      <created>1516558673390</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516558673390</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56611000" />
+    <option name="totallyTimeSpent" value="56621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
