@@ -1,61 +1,61 @@
 
     $(function() {
         var slider = $('.slider'),
-            sliderContent = slider.html(),                      // Содержимое слайдера
-            slideWidth = $('.slider-box').outerWidth(),         // Ширина слайдера
-            slideCount = $('.slider .quote').length,               // Количество слайдов
-            prev = $('.slider-box .prev'),                      // Кнопка "назад"
-            next = $('.slider-box .next'),                      // Кнопка "вперед"
-            sliderInterval = 5000,                              // Интервал смены слайдов
-            animateTime = 1000,                                 // Время смены слайдов
-            course = 1,                                         // Направление движения слайдера (1 или -1)
-            margin = - slideWidth;                              // Первоначальное смещение слайдов
+            sliderContent = slider.html(),                      
+            slideWidth = $('.slider-box').outerWidth(),         
+            slideCount = $('.slider .quote').length,               
+            prev = $('.slider-box .prev'),                      
+            next = $('.slider-box .next'),                      
+            sliderInterval = 5000,                              
+            animateTime = 1000,                                 
+            course = 1,                                         
+            margin = - slideWidth;                              
 
-        $('.slider .quote:last').clone().prependTo('.slider');   // Копия последнего слайда помещается в начало.
-        $('.slider .quote').eq(1).clone().appendTo('.slider');   // Копия первого слайда помещается в конец.
-        $('.slider').css('margin-left', -slideWidth);         // Контейнер .slider сдвигается влево на ширину одного слайда.
+        $('.slider .quote:last').clone().prependTo('.slider');   
+        $('.slider .quote').eq(1).clone().appendTo('.slider');   
+        $('.slider').css('margin-left', -slideWidth);         
 
-        function nextSlide(){                                 // Запускается функция animation(), выполняющая смену слайдов.
+        function nextSlide(){                                 
             interval = window.setInterval(animate, sliderInterval);
         }
 
         function animate(){
-            if (margin==-slideCount*slideWidth-slideWidth){     // Если слайдер дошел до конца
-                slider.css({'marginLeft':-slideWidth});           // то блок .slider возвращается в начальное положение
+            if (margin==-slideCount*slideWidth-slideWidth){     
+                slider.css({'marginLeft':-slideWidth});           
                 margin=-slideWidth*2;
-            }else if(margin==0 && course == -1){                  // Если слайдер находится в начале и нажата кнопка "назад"
-                slider.css({'marginLeft':-slideWidth*slideCount});// то блок .slider перемещается в конечное положение
+            }else if(margin==0 && course == -1){                  
+                slider.css({'marginLeft':-slideWidth*slideCount});
                 margin=-slideWidth*slideCount+slideWidth;
-            }else{                                              // Если условия выше не сработали,
-                margin = margin - slideWidth*(course);              // значение margin устанавливается для показа следующего слайда
+            }else{                                              
+                margin = margin - slideWidth*(course);              
             }
-            slider.animate({'marginLeft':margin},animateTime);  // Блок .slider смещается влево на 1 слайд.
+            slider.animate({'marginLeft':margin},animateTime);  
         }
 
-        function sliderStop(){                                // Функция преостанавливающая работу слайдера
+        function sliderStop(){                                
             window.clearInterval(interval);
         }
 
-        prev.click(function() {                               // Нажата кнопка "назад"
-            if (slider.is(':animated')) { return false; }       // Если не происходит анимация
-            var course2 = course;                               // Временная переменная для хранения значения course
-            course = -1;                                        // Устанавливается направление слайдера справа налево
-            animate();                                          // Вызов функции animate()
-            course = course2 ;                                  // Переменная course принимает первоначальное значение
+        prev.click(function() {                               
+            if (slider.is(':animated')) { return false; }      
+            var course2 = course;                              
+            course = -1;                                       
+            animate();                                          
+            course = course2 ;                                  
         });
-        next.click(function() {                               // Нажата кнопка "назад"
-            if (slider.is(':animated')) { return false; }       // Если не происходит анимация
-            var course2 = course;                               // Временная переменная для хранения значения course
-            course = 1;                                         // Устанавливается направление слайдера справа налево
-            animate();                                          // Вызов функции animate()
-            course = course2 ;                                  // Переменная course принимает первоначальное значение
+        next.click(function() {                               
+            if (slider.is(':animated')) { return false; }      
+            var course2 = course;                              
+            course = 1;                                         
+            animate();                                         
+            course = course2 ;                                 
         });
 
-        slider.add(next).add(prev).hover(function() {         // Если курсор мыши в пределах слайдера
-            sliderStop();                                       // Вызывается функция sliderStop() для приостановки работы слайдера
-        }, nextSlide);                                        // Когда курсор уходит со слайдера, анимация возобновляется.
+        slider.add(next).add(prev).hover(function() {        
+            sliderStop();                                      
+        }, nextSlide);                                        
 
-        nextSlide();                                          // Вызов функции nextSlide()
+        nextSlide();                                          
     });
 
 
